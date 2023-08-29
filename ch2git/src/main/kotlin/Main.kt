@@ -13,7 +13,7 @@ data class Ingredient(
 )
 
 enum class IngredientUnit {
-    tsp, tbs, ml, gram, pcs
+    tsp, tbs, ml, gram, pcs, mm
 }
 
 fun Recipe.ingredientToString(): String {
